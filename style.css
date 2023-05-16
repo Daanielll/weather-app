@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(20, 36, 52);
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 95vh;
+  margin: calc(5vh / 2) auto;
+  border-radius: 10px;
+  background-color: rgb(23, 44, 68);
+  justify-content: center;
+  align-items: center;
+}
+button,
+input {
+  font-size: 1.3rem;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: rgb(47, 87, 136);
+  color: white;
+  margin-bottom: 2em;
+}
